@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.feed {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.post h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.post .meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-image, .post-video {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.post .snippet {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.interactions {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.interactions a {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input, textarea {
+    padding: 0.5em;
+}
+
+button {
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
